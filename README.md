@@ -1,4 +1,3 @@
-````markdown
 # Demo SaaS E2E Test Automation with Cypress
 
 This repository contains end-to-end (E2E) automated tests for the Demo SaaS platform using [Cypress](https://www.cypress.io/). These tests cover critical user flows including signup, login, ticket management, organization settings, and security validations.
@@ -34,17 +33,17 @@ Automated Cypress tests ensure the Demo SaaS app functions as expected with posi
 
 ## Test Structure
 
-| File                          | Purpose                                      |
-|-------------------------------|----------------------------------------------|
-| `signup_form_validation.cy.js` | Signup form validation tests                  |
-| `signup_accessibility.cy.js`  | Signup accessibility tests                    |
-| `signup_security.cy.js`       | Signup security validations                    |
-| `loginPageValidation.cy.js`   | Login page validation tests                    |
-| `TicketsPageValidation.cy.js` | Tickets page search, filter, pagination tests |
-| `StatusFilter.cy.js`          | Ticket status filter dropdown tests           |
-| `SearchFunctionality.cy.js`   | Ticket search feature tests                    |
-| `settingsPage.cy.js`          | Organization members and settings page tests  |
-| `userDropdownAndOrg.cy.js`    | User dropdown & organization selector tests   |
+| File                           | Purpose                                       |
+|-------------------------------|-----------------------------------------------|
+| `signup_form_validation.cy.js` | Signup form validation tests                   |
+| `signup_accessibility.cy.js`   | Signup accessibility tests                     |
+| `signup_security.cy.js`        | Signup security validations                    |
+| `loginPageValidation.cy.js`    | Login page validation tests                    |
+| `TicketsPageValidation.cy.js`  | Tickets page search, filter, pagination tests |
+| `StatusFilter.cy.js`           | Ticket status filter dropdown tests            |
+| `SearchFunctionality.cy.js`    | Ticket search feature tests                     |
+| `settingsPage.cy.js`           | Organization members and settings page tests   |
+| `userDropdownAndOrg.cy.js`     | User dropdown & organization selector tests    |
 
 ---
 
@@ -55,7 +54,7 @@ Automated Cypress tests ensure the Demo SaaS app functions as expected with posi
    ```bash
    git clone https://github.com/bytecraft-rafi/DemoSaaS_E2E_Test_Automation_Cypress.git
    cd DemoSaaS_E2E_Test_Automation_Cypress
-````
+
 
 2. Install dependencies:
 
@@ -93,7 +92,4 @@ Reusable commands like `cy.login()` for authentication are defined in `cypress/s
 
 Contributions, bug reports, and improvements are welcome! Please fork the repository and open pull requests.
 
-
-
-
-
+---
